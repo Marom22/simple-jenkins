@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+      stages {
+        stage('List Filles') {
+            steps {
+                sh 'ls -l'
+            }
+        }
+    }
+}
